@@ -1,12 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Talk to Banana</title>
+
+    <style>
+        textarea {
+
+            display: block;
+            height: 10vh;
+            margin: 1rem;
+            padding: 1rem;
+            width: 80%;
+
+        }
+
+        #output{
+
+             border:1px solid black;
+             height:10vh;
+             width:80%;
+             margin:1rem;
+             padding:1rem;
+
+        }
+    </style>
 </head>
+
 <body>
-    
-</body>
-</html>
+    <h1> talk banana</h1>
+
+    <textarea id="txt-input" placeholder="Please type in your text here so that our Minion Speak translator can do the magic and convert it to Minion Speak...">
+
+
+    </textarea>
+    <button id="btn-translate">Translate</button>
+
+<div style="font-size: larger;">Output will come here👇</div>
+
+    <div id="output"></div>
+
+    <script src="app.js" type=text/javascript> </script> </body> </html>
