@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+
+:root {
+    --primary-color: #F2C94C;
+    --black: #333333;
+    --width-break: 600px;
+}
+
+body {
+    margin: 0rem;
+    font-family: 'Kalam', cursive;
+
+
+}
+
+nav {
+    text-align: center;
+    background-color: var(--primary-color);
+
+
+}
+
+main {
+    max-width: var(--width-break);
+    margin:auto;
+    padding: 1rem;
+}
+
+textarea {
+    min-height: 20vh;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 2rem;
+    font-family: inherit;
+display: block;
+}
+
+
+#output {
+    box-sizing: border-box;
+    height: 20vh;
+    border: 1px solid var(--black);
+    width: 100%;
+    min-height: 10vh;
+    max-height: 20vh;
+    overflow:scroll;
+
+
+}
+
+
+
+#btn-translate {
+    background-color: var(--primary-color);
+    margin: 1rem;
+    padding: 1rem 2rem;
+    font-family: inherit;
+    font-size: large;
+    border: rigid;
+
+
+
+}
+.imageone{
+    /* display:center; */
+     text-align: left;
+     padding: 0rem 1rem; 
+    height: 20vh;
+    /* text-align: left; */
+    /* border-style:solid; */
+    /* font-size: 1.1rem */
+}
+.imagetwo{
+
+   text-align: right;
+    max-width: 200px;
+    padding: 0rem 1rem; 
+    height: 20vh;
+}
+
+footer{
+/* max-width: 600px; */
+background-color: var(--primary-color);
+margin: auto;
+text-align: center;
+}
+
+p{
+max-width: var(--width-break);
+/* padding: 0rem 5rem; */
+margin: auto;
+padding-bottom: 1rem;
+}
