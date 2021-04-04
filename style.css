@@ -50,7 +50,7 @@ display: block;
     max-height: 20vh;
     overflow:scroll;
 
-
+    font-family: inherit;
 }
 
 
